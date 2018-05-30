@@ -59,8 +59,9 @@
         width: 100%;
 
         @include respond (tab-port) {
-            display: table-cell;
-            width: 44%;
+            float: left;
+            width: auto;
+            height: 9rem;
         }
     }
 
@@ -69,8 +70,9 @@
         width: 100%;
 
         @include respond (tab-port) {
-            display: table-cell;
-            width: 44%;
+            float: right;
+            width: auto;
+            height: 9rem;
         }
     }
 
